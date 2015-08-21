@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroud">#d0bfbf</color>
+	<color name="transparent">#00000000</color>
+	<color name="backgr">#10877b</color>
+	<color name="grey_strong">#ff000000</color>
+	<color name="orange_pressed">#0099cc</color>
+    <color name="orange_normal">#da9622</color>
+</resources>

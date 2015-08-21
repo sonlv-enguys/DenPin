@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#00000000" >
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:text="Your Score: " />
+
+    <LinearLayout
+        android:id="@+id/menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" >
+        
+        <Button 
+            android:id="@+id/bt_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="SHARE"
+            android:textColor="#ffffff"
+            android:background="@drawable/custom_flat_button"/>
+        <Button 
+            android:id="@+id/bt_newgame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:text="NEW GAME"
+            android:textColor="#ffffff"
+            android:background="@drawable/custom_flat_button"/>
+        <Button 
+            android:id="@+id/bt_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="FACEBOOK"
+            android:textColor="#ffffff"
+            android:background="@drawable/custom_flat_button"/>
+    </LinearLayout>
+
+</LinearLayout>

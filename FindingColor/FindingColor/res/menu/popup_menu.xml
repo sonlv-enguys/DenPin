@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Save"
+        android:title=" ➀  Designed by LEHUNG..."/>
+    <item
+        android:id="@+id/Load"
+        android:title=" ➁ HẾT !!! ^^"/>
+    <item
+        android:id="@+id/Exit"
+        android:title=" ⓧ  exit "/>
+
+</menu>
